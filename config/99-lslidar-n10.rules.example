@@ -1,0 +1,2 @@
+# Replace 1a86 and 7523 with ID_VENDOR_ID and ID_MODEL_ID from your adapter.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", GROUP="dialout", MODE="0660", SYMLINK+="lslidar_n10"
